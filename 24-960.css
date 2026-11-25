@@ -1,0 +1,272 @@
+:root {
+  color: #000;
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: geometricPrecision;
+}
+
+* {
+  box-sizing: border-box;
+  cursor: url("./assets/cursor-black.svg") 6 6, auto !important;
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  background: #fff;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+figure,
+h1,
+p,
+dl,
+dd {
+  margin: 0;
+}
+
+.project-24960 {
+  position: relative;
+  width: 100%;
+  height: calc(13309px * var(--scale-24960, 1));
+  overflow: hidden;
+  background: #fff;
+}
+
+.scene-24960 {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1920px;
+  height: 13309px;
+  overflow: hidden;
+  background: #fff;
+  transform: translateX(-50%) scale(var(--scale-24960, 1));
+  transform-origin: top center;
+}
+
+.home-24960 {
+  position: absolute;
+  top: 14px;
+  left: 18px;
+  z-index: 10;
+  width: max-content;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.04px;
+}
+
+.home-24960:focus-visible {
+  outline: 3px solid #000;
+  outline-offset: 5px;
+}
+
+.hero-24960 {
+  position: absolute;
+  top: 64px;
+  left: 35px;
+  width: 1832px;
+  height: 1284px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.hero-24960 img {
+  position: absolute;
+  top: -14.11%;
+  left: -0.97%;
+  width: 116.18%;
+  height: 114.11%;
+  max-width: none;
+  object-fit: fill;
+}
+
+.title-24960 {
+  position: absolute;
+  top: 1552px;
+  left: 65px;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.68px;
+}
+
+.description-24960 {
+  position: absolute;
+  top: 1546px;
+  left: 451px;
+  width: 736px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1px;
+  white-space: normal;
+  word-break: break-word;
+}
+
+.credits-24960 {
+  position: absolute;
+  top: 1552px;
+  left: 1414px;
+  width: 470px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1px;
+}
+
+.credits-24960 div {
+  display: grid;
+  grid-template-columns: 68px 1fr;
+  min-height: 46px;
+}
+
+.credits-24960 div:first-child {
+  min-height: 52px;
+}
+
+.credits-24960 dt {
+  color: #c0c0c0;
+}
+
+.credits-24960 dd {
+  white-space: nowrap;
+}
+
+.trash-24960 {
+  position: absolute;
+  top: 3294px;
+  left: 250px;
+  width: 1420px;
+  height: 1079px;
+  overflow: hidden;
+  user-select: none;
+}
+
+.trash-24960 img,
+.packaging-grid-24960 img,
+.book-front-24960 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+}
+
+.trash-24960 img {
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.trash-label-24960 {
+  position: absolute;
+  top: 4404px;
+  left: 915px;
+  width: max-content;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1px;
+}
+
+.packaging-grid-24960 {
+  position: absolute;
+  top: 5081px;
+  left: 1px;
+  width: 1921.485px;
+  height: 1192px;
+  overflow: hidden;
+}
+
+.packaging-grid-24960 img,
+.book-front-24960 img {
+  object-fit: fill;
+}
+
+.book-front-24960 {
+  position: absolute;
+  top: 6910px;
+  left: 70px;
+  width: 1790px;
+  height: 912px;
+  overflow: hidden;
+}
+
+.book-angled-24960 {
+  position: absolute;
+  top: 8214px;
+  left: 213px;
+  width: 1393px;
+  height: 1167px;
+  overflow: hidden;
+}
+
+.book-angled-24960 img {
+  position: absolute;
+  top: -13.5%;
+  left: -31.75%;
+  width: 176.22%;
+  height: 118.2%;
+  max-width: none;
+}
+
+.book-open-24960 {
+  position: absolute;
+  top: 9911px;
+  left: 341px;
+  width: 1328px;
+  height: 1159px;
+  overflow: hidden;
+}
+
+.book-open-24960 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: fill;
+}
+
+.book-standing-24960 {
+  position: absolute;
+  top: 11527px;
+  left: 517px;
+  width: 895px;
+  height: 1200px;
+  overflow: hidden;
+}
+
+.book-standing-24960 img {
+  position: absolute;
+  top: -6.18%;
+  left: -78.66%;
+  width: 261.56%;
+  height: 109.69%;
+  max-width: none;
+}
+
+.is-preparing-24960-media .media-24960 img {
+  visibility: hidden;
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .media-24960 img {
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+}

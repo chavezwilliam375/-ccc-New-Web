@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "type": "figma",
+    "fileKey": "O65aRCRvgEPwLvDeUkDq1D",
+    "nodeId": "42:402",
+    "purpose": "Image-to-project-name reference data; not rendered directly"
+  },
+  "works": [
+    {
+      "id": "otowotto",
+      "name": "Otowotto",
+      "nameZh": null,
+      "figmaTextNodeId": "42:472",
+      "image": {
+        "src": "assets/images/works-catalog/otowotto.png",
+        "figmaNodeId": "42:457",
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "theta-1-over-0",
+      "name": "Θ=1/0",
+      "nameZh": null,
+      "figmaTextNodeId": "42:480",
+      "image": {
+        "src": "assets/images/home-carousel/experimental-00.png",
+        "figmaNodeId": "42:458",
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "gene-gallery",
+      "name": "Gene Gallery",
+      "nameZh": null,
+      "figmaTextNodeId": "42:482",
+      "image": null
+    },
+    {
+      "id": "perceptual-bias",
+      "name": "Perceptual Bias",
+      "nameZh": "感知偏差",
+      "figmaTextNodeId": "42:502",
+      "image": {
+        "src": "assets/images/home-carousel/publication-03.png",
+        "figmaNodeId": "42:450",
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "k2-track-art-museum",
+      "name": "K2 Track Art Museum",
+      "nameZh": null,
+      "figmaTextNodeId": "42:494",
+      "image": {
+        "src": "assets/images/home-carousel/identity-04.png",
+        "figmaNodeId": "42:464",
+        "fit": "crop",
+        "crop": {
+          "leftPercent": -1722.97,
+          "topPercent": -917.01,
+          "widthPercent": 2002.65,
+          "heightPercent": 1133.53
+        }
+      }
+    },
+    {
+      "id": "monosci-fonts",
+      "name": "Monosci Fonts",
+      "nameZh": null,
+      "figmaTextNodeId": "42:474",
+      "image": {
+        "src": "assets/images/home-carousel/experimental-03.png",
+        "figmaNodeId": "42:459",
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "lemaire",
+      "name": "Lemaire",
+      "nameZh": null,
+      "figmaTextNodeId": "42:484",
+      "image": {
+        "src": "assets/images/home-carousel/brand-01.png",
+        "figmaNodeId": "42:466",
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "behind-the-mask",
+      "name": "Behind The Mask",
+      "nameZh": null,
+      "figmaTextNodeId": "42:504",
+      "image": null
+    },
+    {
+      "id": "emerging-shape",
+      "name": "Emerging shape",
+      "nameZh": "现形",
+      "figmaTextNodeId": "42:526",
+      "image": {
+        "src": "assets/images/home-carousel/experimental-01.png",
+        "figmaNodeId": "42:452",
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "double-art-festival",
+      "name": "Double Art Festival",
+      "nameZh": "复数艺术节",
+      "figmaTextNodeId": "42:496",
+      "image": null
+    },
+    {
+      "id": "24-960",
+      "name": "24-960",
+      "nameZh": null,
+      "figmaTextNodeId": "42:512",
+      "image": {
+        "src": "assets/images/home-carousel/experimental-02.png",
+        "figmaNodeId": "42:448",
+        "fit": "contain-bottom"
+      }
+    },
+    {
+      "id": "poetics-of-form",
+      "name": "Poetics Of Form",
+      "nameZh": "形态的诗学",
+      "figmaTextNodeId": "42:518",
+      "image": null
+    },
+    {
+      "id": "grand-tour",
+      "name": "Grand Tour",
+      "nameZh": "壮游",
+      "figmaTextNodeId": "42:490",
+      "image": {
+        "src": "assets/images/home-carousel/identity-03.png",
+        "figmaNodeId": "42:469",
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "songs-of-laber",
+      "name": "Songs Of Laber",
+      "nameZh": "劳动者之歌",
+      "figmaTextNodeId": "44:626",
+      "image": null
+    },
+    {
+      "id": "cruise-ship-72-changes",
+      "name": "Cruise Ship 72 Changes",
+      "nameZh": "邮轮 72变",
+      "figmaTextNodeId": "42:508",
+      "image": {
+        "src": "assets/images/home-carousel/publication-01.png",
+        "figmaNodeId": "42:453",
+        "fit": "crop",
+        "crop": {
+          "leftPercent": -0.66,
+          "topPercent": -1.47,
+          "widthPercent": 101.31,
+          "heightPercent": 102.21
+        }
+      }
+    },
+    {
+      "id": "wandering-here-dreaming-there",
+      "name": "Wandering Here Dreaming There",
+      "displayName": "Wandering Here Dre-aming There",
+      "nameZh": null,
+      "figmaTextNodeId": "42:478",
+      "image": {
+        "src": "assets/images/home-carousel/identity-00.png",
+        "figmaNodeId": "42:460",
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "8th-annual-conference",
+      "name": "8th Annual Conference",
+      "nameZh": null,
+      "figmaTextNodeId": "42:479",
+      "image": {
+        "src": "assets/images/home-carousel/motion-01.png",
+        "figmaNodeId": "42:454",
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "circle",
+      "name": "Circle",
+      "nameZh": null,
+      "figmaTextNodeId": "42:488",
+      "image": {
+        "src": "assets/images/home-carousel/publication-02.png",
+        "figmaNodeId": "42:451",
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "a-world-on-paper",
+      "name": "A World On Paper",
+      "nameZh": null,
+      "figmaTextNodeId": "42:514",
+      "image": null
+    },
+    {
+      "id": "pinned-order",
+      "name": "Pinned Order",
+      "nameZh": null,
+      "figmaTextNodeId": "42:520",
+      "image": {
+        "src": "assets/images/home-carousel/poster-03.png",
+        "figmaNodeId": "42:463",
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "meta-physical-form",
+      "name": "META（PHYSICAL）FORM",
+      "nameZh": null,
+      "figmaTextNodeId": "42:492",
+      "image": null
+    },
+    {
+      "id": "making-inbetween",
+      "name": "Making Inbetween",
+      "nameZh": null,
+      "figmaTextNodeId": "42:500",
+      "image": {
+        "src": "assets/images/home-carousel/poster-02.png",
+        "figmaNodeId": "42:461",
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "golden-bell-laureates",
+      "name": "Golden Bell Laureates",
+      "nameZh": null,
+      "figmaTextNodeId": "42:516",
+      "image": null
+    },
+    {
+      "id": "natural-walk",
+      "name": "Natural Walk",
+      "nameZh": null,
+      "figmaTextNodeId": "42:506",
+      "image": null
+    }
+  ]
+}

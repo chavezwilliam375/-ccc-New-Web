@@ -1,0 +1,318 @@
+:root {
+  color: #000;
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: geometricPrecision;
+}
+
+* {
+  box-sizing: border-box;
+  cursor: url("./assets/cursor-black.svg") 6 6, auto !important;
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  background: #fff;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+figure,
+h1,
+p,
+dl,
+dd {
+  margin: 0;
+}
+
+.theta-page {
+  position: relative;
+  width: 100%;
+  height: calc(23946px * var(--theta-scale, 1));
+  overflow: hidden;
+  background: #fff;
+}
+
+.theta-scene {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1920px;
+  height: 23946px;
+  overflow: hidden;
+  background: #fff;
+  transform: translateX(-50%) scale(var(--theta-scale, 1));
+  transform-origin: top center;
+}
+
+.theta-home {
+  position: absolute;
+  top: 14px;
+  left: 18px;
+  z-index: 20;
+  width: max-content;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.04px;
+}
+
+.theta-home:focus-visible {
+  outline: 3px solid #000;
+  outline-offset: 5px;
+}
+
+.theta-media {
+  position: absolute;
+  overflow: hidden;
+}
+
+.theta-media > img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.theta-hero {
+  top: 298px;
+  left: 121px;
+  width: 1688px;
+  height: 998px;
+}
+
+.theta-title {
+  position: absolute;
+  top: 1552px;
+  left: 65px;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.68px;
+}
+
+.theta-description {
+  position: absolute;
+  top: 1546px;
+  left: 451px;
+  width: 736px;
+  min-height: 791px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1px;
+  white-space: normal;
+  word-break: break-word;
+}
+
+.theta-credits {
+  position: absolute;
+  top: 1552px;
+  left: 1414px;
+  width: 470px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1px;
+}
+
+.theta-credits div {
+  display: grid;
+  grid-template-columns: 68px 1fr;
+  min-height: 46px;
+}
+
+.theta-credits div:first-child {
+  min-height: 52px;
+}
+
+.theta-credits dt {
+  color: #c0c0c0;
+}
+
+.theta-credits dd {
+  white-space: nowrap;
+}
+
+.study {
+  width: 315px;
+  height: 315px;
+}
+
+.study--01 { top: 2635px; left: 184px; }
+.study--02 { top: 2635px; left: 596px; width: 316px; }
+.study--03 { top: 2633px; left: 1009px; width: 316px; height: 317px; }
+.study--04 { top: 2635px; left: 1422px; }
+.study--05 { top: 3034px; left: 184px; }
+.study--06 { top: 3034px; left: 596px; width: 316px; }
+.study--07 { top: 3034px; left: 1009px; }
+.study--08 { top: 3034px; left: 1421px; }
+.study--09 { top: 3433px; left: 184px; }
+.study--10 { top: 3433px; left: 596px; width: 316px; }
+.study--11 { top: 3433px; left: 1009px; }
+.study--12 { top: 3433px; left: 1421px; }
+.study--13 { top: 3832px; left: 184px; }
+.study--14 { top: 3832px; left: 596px; width: 316px; }
+.study--15 { top: 3832px; left: 1009px; }
+.study--16 { top: 3832px; left: 1421px; }
+
+.theta-overview-strip {
+  top: 4647px;
+  left: 158px;
+  width: 1613px;
+  height: 604px;
+}
+
+.theta-overview-strip > img {
+  top: -23.09%;
+  left: -0.03%;
+  width: 100.05%;
+  height: 152.57%;
+}
+
+.object-study--01 { top: 5734px; left: 179.11px; width: 260.317px; height: 265.52px; }
+.object-study--02 { top: 5750.61px; left: 544.43px; width: 258.029px; height: 252.403px; }
+.object-study--03 { top: 5783.82px; left: 1032.63px; width: 323.87px; height: 194.468px; }
+.object-study--04 { top: 5780.5px; left: 1388.17px; width: 352.956px; height: 189.403px; }
+.object-study--05 { top: 6070.54px; left: 178px; width: 330.876px; height: 260.252px; }
+.object-study--06 { top: 6105.2px; left: 523.42px; width: 319.343px; height: 256.799px; }
+.object-study--07 { top: 6107.07px; left: 1039.27px; width: 310.451px; height: 217.747px; }
+.object-study--08 { top: 6107.07px; left: 1409.02px; width: 299.792px; height: 223.78px; }
+
+.object-study--06 > img {
+  inset: auto;
+  top: 50%;
+  left: 50%;
+  width: 303.936px;
+  height: 115.115px;
+  transform: translate(-50%, -50%) rotate(31.45deg);
+}
+
+.theta-spring-fencing {
+  top: 7104px;
+  left: -19px;
+  width: 1957px;
+  height: 1693px;
+}
+
+.theta-whisk-fencing {
+  top: 9310px;
+  left: 621.84px;
+  width: 776.707px;
+  height: 2217.965px;
+}
+
+.theta-whisk-fencing > img {
+  inset: auto;
+  top: 50%;
+  left: 50%;
+  width: 2210px;
+  height: 753px;
+  transform: translate(-50%, -50%) rotate(-89.38deg);
+}
+
+.theta-black-panel {
+  position: absolute;
+  top: 12008px;
+  left: 34.5px;
+  width: 1851px;
+  height: 4912px;
+  border-radius: 10px;
+  background: #000;
+}
+
+.poster {
+  top: 12629px;
+  width: 391px;
+  height: 589px;
+}
+
+.poster--01 { left: 115px; }
+.poster--02 { left: 548px; }
+.poster--03 { left: 981px; }
+.poster--04 { left: 1414px; }
+
+.theta-layout {
+  left: 34.5px;
+  width: 1851px;
+  height: 1057px;
+}
+
+.theta-layout--01 { top: 13841px; }
+.theta-layout--02 { top: 15378px; }
+.theta-layout--03 {
+  top: 17048px;
+  border-radius: 10px;
+}
+
+.theta-layout--03 > img {
+  border-radius: 10px;
+}
+
+.theta-material--01 {
+  top: 18236px;
+  left: 34.5px;
+  width: 1851px;
+  height: 2776px;
+  border-radius: 10px;
+}
+
+.theta-material--01 > img {
+  border-radius: 10px;
+}
+
+.theta-material--02 {
+  top: 21143px;
+  left: 34.5px;
+  width: 1851px;
+  height: 1041px;
+  border-radius: 10px;
+}
+
+.theta-material--02 > img {
+  border-radius: 10px;
+}
+
+.theta-final-shot {
+  top: 22315px;
+  left: 34.5px;
+  width: 1851px;
+  height: 1058px;
+  border-radius: 10px;
+}
+
+.theta-final-shot > img {
+  top: -2.1%;
+  left: -2.13%;
+  width: 103%;
+  height: 103.5%;
+  border-radius: 10px;
+}
+
+.is-preparing-theta-media .theta-media img {
+  visibility: hidden;
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .theta-media img {
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+}

@@ -1,0 +1,201 @@
+:root {
+  color: #000;
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: geometricPrecision;
+}
+
+* {
+  box-sizing: border-box;
+  cursor: url("./assets/cursor-black.svg") 6 6, auto !important;
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  background: #fff;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+figure,
+h1,
+p,
+dl,
+dd {
+  margin: 0;
+}
+
+.soma-page {
+  position: relative;
+  width: 100%;
+  height: calc(23051px * var(--soma-scale, 1));
+  overflow: hidden;
+  background: #fff;
+}
+
+.soma-scene {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1920px;
+  height: 23051px;
+  overflow: hidden;
+  background: #fff;
+  transform: translateX(-50%) scale(var(--soma-scale, 1));
+  transform-origin: top center;
+}
+
+.soma-home {
+  position: absolute;
+  z-index: 10;
+  top: 14px;
+  left: 35px;
+  width: max-content;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.04px;
+}
+
+.soma-home:focus-visible {
+  outline: 3px solid #000;
+  outline-offset: 5px;
+}
+
+.soma-media {
+  position: absolute;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.soma-media > img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.soma-hero {
+  top: 64px;
+  left: 34px;
+  width: 1851px;
+  height: 1057px;
+  border-radius: 10px;
+}
+
+.soma-hero > img {
+  border-radius: inherit;
+}
+
+.soma-title {
+  position: absolute;
+  top: 1221px;
+  left: 35px;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.68px;
+}
+
+.soma-description {
+  position: absolute;
+  top: 1221px;
+  left: 451px;
+  width: 736px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1px;
+  word-break: break-word;
+}
+
+.soma-credits {
+  position: absolute;
+  inset: 0;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1px;
+}
+
+.soma-credit {
+  position: absolute;
+  left: 1434px;
+  display: grid;
+  width: 451px;
+  grid-template-columns: 153px 1fr;
+}
+
+.soma-credit dt {
+  color: #c0c0c0;
+}
+
+.soma-credit dd {
+  white-space: nowrap;
+}
+
+.soma-credit--category { top: 1221px; }
+.soma-credit--designer { top: 1266px; }
+.soma-credit--director { top: 1342px; }
+.soma-credit--year { top: 1420px; }
+
+.soma-black-panel {
+  position: absolute;
+  z-index: 1;
+  top: 2295px;
+  left: 35px;
+  width: 1850px;
+  height: 20024px;
+  border-radius: 10px;
+  background: #000;
+}
+
+.soma-shot {
+  left: 35px;
+  width: 1850px;
+}
+
+.soma-shot--01 { top: 2307px; height: 1249px; }
+.soma-shot--02 { top: 3633px; height: 1037px; }
+.soma-shot--03 { top: 4747px; height: 1250px; }
+.soma-shot--04 { top: 6106px; height: 1038px; }
+.soma-shot--05 { top: 7261px; height: 1516px; }
+.soma-shot--06 { top: 8838px; height: 1056px; }
+.soma-shot--07 { top: 9965px; height: 1248px; }
+.soma-shot--08 { top: 11333px; height: 1035px; }
+.soma-shot--09 { top: 12467px; height: 1247px; }
+.soma-shot--10 { top: 13865px; height: 1035px; }
+.soma-shot--11 { top: 15002px; height: 1250px; }
+.soma-shot--12 { top: 16354px; height: 1033px; }
+.soma-shot--13 { top: 17489px; height: 1248px; }
+.soma-shot--14 { top: 18837px; height: 1044px; }
+.soma-shot--15 { top: 19979px; height: 1253px; }
+.soma-shot--16 { top: 21232px; height: 1038px; }
+
+.is-preparing-soma-media .soma-media > img {
+  visibility: hidden;
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .soma-media > img {
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+}

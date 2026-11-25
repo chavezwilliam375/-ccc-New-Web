@@ -1,0 +1,6 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="638.5" height="535.804" viewBox="0 0 638.5 535.804" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <mask id="cf7ad-extended-mask" fill="white">
+    <path d="M383.069 68.8038H244.931L38 275.751V483.804H62.41V357.644H565.59V483.804H590V275.751L383.069 68.8038ZM62.41 333.297V285.711L254.917 93.1505H373.083L565.59 285.711V333.297H62.41Z"/>
+  </mask>
+  <path d="M383.069 68.8038H244.931L38 275.751V483.804H62.4101V357.644H565.59V483.804H590V275.751L383.069 68.8038ZM62.4101 333.297V285.711L254.917 93.1505H373.083L565.59 285.711V333.297H62.4101Z" stroke-width="2" stroke="white" mask="url(#cf7ad-extended-mask)"/>
+</svg>

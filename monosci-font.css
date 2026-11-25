@@ -1,0 +1,415 @@
+:root {
+  color: #000;
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: geometricPrecision;
+}
+
+* {
+  box-sizing: border-box;
+  cursor: url("./assets/cursor-black.svg") 6 6, auto !important;
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  background: #fff;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+figure,
+h1,
+p,
+dl,
+dd {
+  margin: 0;
+}
+
+.monosci-page {
+  position: relative;
+  width: 100%;
+  height: calc(6834px * var(--monosci-scale, 1));
+  overflow: hidden;
+  background: #fff;
+}
+
+.monosci-scene {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1920px;
+  height: 6834px;
+  overflow: hidden;
+  background: #fff;
+  transform: translateX(-50%) scale(var(--monosci-scale, 1));
+  transform-origin: top center;
+}
+
+.monosci-home {
+  position: absolute;
+  z-index: 20;
+  top: 14px;
+  left: 35px;
+  width: max-content;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.04px;
+}
+
+.monosci-home:focus-visible {
+  outline: 3px solid #000;
+  outline-offset: 5px;
+}
+
+.monosci-media {
+  position: absolute;
+  overflow: hidden;
+}
+
+.monosci-media > img {
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 100%;
+  max-width: none;
+  pointer-events: none;
+}
+
+.monosci-hero {
+  top: 310px;
+  left: 35px;
+  width: 1850px;
+  height: 987px;
+}
+
+.monosci-hero > img {
+  top: -6.98%;
+  height: 106.98%;
+}
+
+.monosci-title {
+  position: absolute;
+  top: 1569px;
+  left: 35px;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.68px;
+}
+
+.monosci-description {
+  position: absolute;
+  top: 1569px;
+  left: 451px;
+  width: 736px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1px;
+  word-break: break-word;
+}
+
+.monosci-credits {
+  position: absolute;
+  inset: 0;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1px;
+}
+
+.monosci-credit {
+  position: absolute;
+  left: 1434px;
+  display: grid;
+  width: 451px;
+  grid-template-columns: 163px 1fr;
+}
+
+.monosci-credit dt {
+  color: #c0c0c0;
+}
+
+.monosci-credit dd {
+  white-space: nowrap;
+}
+
+.monosci-credit--category { top: 1569px; }
+.monosci-credit--designer { top: 1614px; }
+.monosci-credit--year { top: 1690px; }
+
+.monosci-family-sample {
+  top: 2602px;
+  left: 35px;
+  width: 1850px;
+  height: 761px;
+}
+
+.monosci-family-sample > img {
+  top: -38.79%;
+  height: 138.82%;
+}
+
+.monosci-specification {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.monosci-glyph-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.monosci-grid-lines {
+  position: absolute;
+  z-index: 0;
+  top: 3642px;
+  left: calc(50% + 229px);
+  width: 696px;
+  height: 928px;
+  pointer-events: none;
+}
+
+.monosci-grid-lines img {
+  position: absolute;
+  display: block;
+  max-width: none;
+}
+
+.monosci-grid-line--vertical {
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.monosci-construction,
+.monosci-metric-line,
+.monosci-glyph img,
+.monosci-comparison-glyph {
+  position: absolute;
+  display: block;
+  max-width: none;
+}
+
+.monosci-construction {
+  top: 56.69%;
+  bottom: 37.62%;
+  left: calc(50% - 339.05px);
+  width: 491.898px;
+  height: auto;
+  transform: translateX(-50%);
+}
+
+.monosci-source-preview {
+  overflow: visible;
+}
+
+.monosci-source-preview__fallback {
+  display: block;
+}
+
+.monosci-source-preview > svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.monosci-source-preview > svg {
+  shape-rendering: geometricPrecision;
+}
+
+.monosci-source-preview.is-style-round > svg,
+.monosci-source-preview.is-style-angular > svg,
+.monosci-source-preview.is-style-extended > svg {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: auto;
+  height: 100%;
+  max-width: none;
+  transform: translateX(-50%);
+}
+
+.monosci-source-preview.is-style-extended > svg {
+  transform: translateX(calc(-50% + 8px));
+}
+
+.monosci-source-preview.is-style-extended[data-preview-characters="Vv"] > svg {
+  transform: translateX(calc(-50% + 4px));
+}
+
+.monosci-metric-line {
+  left: calc(50% - 348.28px);
+  width: 1154px;
+  height: 0.7px;
+  transform: translateX(-50%);
+}
+
+.monosci-metric-line--01 { top: 3874px; }
+.monosci-metric-line--02 { top: 3889px; }
+.monosci-metric-line--03 { top: 4018px; }
+.monosci-metric-line--04 { top: 4263px; }
+.monosci-metric-line--05 { top: 4359px; }
+
+.monosci-metric,
+.monosci-value {
+  position: absolute;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.52px;
+  white-space: nowrap;
+}
+
+.monosci-metric { left: 34px; }
+.monosci-value { text-align: right; }
+.monosci-metric--cap { top: 3872px; }
+.monosci-metric--xheight { top: 4019px; }
+.monosci-metric--baseline { top: 4264px; }
+.monosci-metric--descender { top: 4360px; }
+.monosci-value--cap { top: 3873px; left: 1157px; }
+.monosci-value--ascender { top: 3889px; left: 1157px; }
+.monosci-value--xheight { top: 4018px; left: 1157px; }
+.monosci-value--baseline { top: 4263px; left: 1170px; }
+.monosci-value--descender { top: 4359px; left: 1152px; }
+
+.monosci-glyph {
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.monosci-glyph.is-selected img {
+  filter: invert(1);
+}
+
+.monosci-glyph-hit-layer {
+  position: absolute;
+  z-index: 1;
+  top: 3642px;
+  left: calc(50% + 229px);
+  display: grid;
+  width: 696px;
+  height: 928px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  pointer-events: auto;
+}
+
+.monosci-glyph-hit {
+  min-width: 0;
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  appearance: none;
+}
+
+.monosci-glyph-hit.is-selected {
+  position: relative;
+  z-index: 1;
+  background: #000;
+}
+
+.monosci-glyph-hit:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: -4px;
+}
+
+.monosci-glyph img {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.monosci-comparison {
+  position: absolute;
+  top: 4791px;
+  left: 35px;
+  width: 1850px;
+  height: 1068px;
+  background: #000;
+}
+
+.monosci-comparison-card {
+  position: absolute;
+  top: 182px;
+  width: 745px;
+  height: 766px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.monosci-comparison-card--01 { left: 94px; }
+.monosci-comparison-card--02 { left: 1012px; }
+
+.monosci-comparison-title,
+.monosci-comparison-subtitle {
+  position: absolute;
+  width: 745px;
+  color: #fff;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.08px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.monosci-comparison-title { top: 204px; }
+.monosci-comparison-title--01 { left: 94px; }
+.monosci-comparison-title--02 { left: 1012px; }
+.monosci-comparison-subtitle { top: 253px; }
+.monosci-comparison-subtitle--01 { left: 94px; }
+.monosci-comparison-subtitle--02 { left: 1012px; }
+
+.monosci-comparison-glyph {
+  top: 335px;
+  width: 638.5px;
+  height: 535.804px;
+}
+
+.monosci-comparison-glyph--01 { left: 147px; }
+.monosci-comparison-glyph--02 { left: 1065px; }
+
+.monosci-comparison-base { z-index: 1; }
+.monosci-comparison-extended { z-index: 2; }
+
+.is-preparing-monosci-media .monosci-comparison-extended,
+.is-preparing-monosci-media .monosci-comparison-guides {
+  clip-path: inset(0 0 0 100%);
+}
+
+.is-preparing-monosci-media [data-reveal] {
+  visibility: hidden;
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] {
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  .monosci-comparison-extended,
+  .monosci-comparison-guides {
+    clip-path: inset(0) !important;
+    transform: none !important;
+  }
+}
